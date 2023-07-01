@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./proyecto.css">
+    <title>proyecto</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./imagenes/descarga.png" alt="Logo de la tienda de juguetes">
+          </div>        <nav>
+            <div class="menu-icon">
+                <i class="fa fa-bars fa-2x"></i>
+            </div>
+            <ul class="menu">
+                <li><a href="./proyecto.html">Inicio</a></li>
+                <li><a href="./about.html">Formulario</a></li>
+                <li><a href="./services.html">Modal</a></li>
+                <li><a href="./contact.html">Card</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Informacio Adicional</h1>
+
+        <!-- Botones que activarán los modales -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal1">Abrir modal 1</button>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal2">Abrir modal 2</button>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal3">Abrir modal 3</button>
+
+        <!-- Modales -->
+        <div class="modal" tabindex="-1" id="modal1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Descripcion de los jueguetes</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Un juguete es un objeto diseñado para entretener y divertir a las personas,
+                             especialmente a los niños. Sin embargo, además de ser utilizado como elemento de diversión, 
+                             el juguete permite que los niños al jugar con él, puedan desarrollar 
+                            ciertas capacidades, tanto en el aspecto físico como emocional y social.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modales -->
+        <div class="modal" tabindex="-1" id="modal2">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Cual es el mejor juguete?</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Todos sabemos que actualmente se fabrican en el mundo cientos de miles de juguetes; 
+                            en el mercado podemos encontrar muchos muy buenos y otros no tan buenos.
+                            ¿De qué depende esta valoración? Los buenos juguetes son seguros, 
+                            duraderos, atractivos, son también manejables y con unas instrucciones completas y comprensibles.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modales -->
+        <div class="modal" tabindex="-1" id="modal3">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Características del juguete didáctico</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Hay algunas características generales a tener en cuenta a la hora de adquirir este tipo de juguete:
+
+                            Deben ser juegos sencillos, de fácil manejo y con un objetivo educativo.
+                            El juego didáctico se adecuará a la edad del pequeño y de sus capacidades.
+                            Las instrucciones tienen que ser comprensibles para el niño.
+                            Es importante que cuenten con un tamaño correcto y de buena resistencia.
+                            La finalidad de esta propuesta lúdica es fomentar el desarrollo en el ámbito cognitivo, social, emocional y verbal.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <ul class="footer-links">
+            <li><a href="#">Política de privacidad</a></li>
+            <li><a href="#">Términos y condiciones</a></li>
+        </ul>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="./proyecto.js"></script>
+</body>
+</html>
